@@ -1,0 +1,46 @@
+*{ /* l'étoile signifi que je sélectionne tout le doc */
+    text-align: right;
+}
+
+body{
+    background-color:#3d7ea6;
+}
+
+header{
+    background-color: #5c969e;
+    color: black; 
+    height: 100px; /* hauteur fixée */
+}
+nav{
+    background-color:#bbdadf ;
+    height: 60px;
+}
+section{
+    background-color:#a0e5f0 ;
+    height: 600px;
+}
+
+article{
+    background-color:#bbdadf ;
+    height: 67px;
+}
+footer{
+    background-color:#5c969e ;
+    height: 75px;
+}
+
+nav, footer{  /*je sépare les différentes balises à sélectionner par des virgules*/
+    color: rgb(26, 8, 3);
+}
+
+/*pour sélectionne rune class en css, j'utilise un point avant le nom que je lui ai donné*/
+.jaune{
+    background-color: #dd7631;
+}
+
+#noir{
+    background-color: #fff;
+    color: black;
+    text-align: justify;
+    font-size: 21px;
+}

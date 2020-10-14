@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index HTML</title>
+
+    <meta name="Description" content="Ma première page html"><!-- Ici on décrit le contenu de la page, il sera visible à partir du navigateur lors des recherches de l'utilisateur -->
+    <meta name="Author" content="Ornella Lallier"><!-- c'est une balise pour spécifier qui est l'auteur de la page -->
+    <link rel="stylesheet" href="css/01_index.css"><!-- Ici un chemin relatif vers le fichier de style, attention aux chemins-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans&display=swap" rel="stylesheet">  <!--Import de la police  dancing script et open sans par google font-->
+
+
+</head>
+
+<body>
+    c'est un test avec du texte <!-- il n'est pas nécessaire d'utiliser <p> pour afficher du texte -->
+    <!-- Les titres -->
+    <h1>Titre de niveau 1</h1><!-- on ne met qu'un h1 par page -->
+    <h2>Titre de niveau 2</h2><!-- shift alt bas sert à dupliquer une ligne-->
+    <h3>Titre de niveau 3</h3>
+    <h4>Titre de niveau 4</h4>
+    <h5>Titre de niveau 5</h5>
+    <h6>Titre de niveau 6</h6><!-- On prendra toujours garde à la hierarchisation des titres -->
+
+    
+    <h1></h1>
+        <h2></h2>
+            <h3></h3>
+            <h3></h3>
+        <h2></h2>
+        <h4></h4><!-- Le h4 ne doit pas suivre le h2 -->
+
+    <p>C'est un paragraphe</p>
+    <p>Les paragraphes sont délimités par la balise &lt;p></p> <!-- &lt; => > ce type de code permet de ne pas interpréter notre balise p -->
+    <pre>Les numériques de Poissy 2020  BlaBlaBlaBla
+        BlaBlaBlaBla
+    </pre>
+    <p>Les numériques de Poissy 2020  BlaBlaBlaBla
+        BlaBlaBlaBla
+    </p>
+
+    <p><!-- Attention on n'abuse pas des balises br, on utilise le css pour la mise en forme -->
+        Pour faire un retour, j'utilise la balise &lt;br>.
+        <br>
+        on peut aussi l'écrire &lt;br /> 
+        <br>
+         ou &lt;br/>
+    </p>
+
+    <!-- La disposition du texte -->
+    <p style="text-align: right">
+    ce paragraphe sur deux lignes <br>
+    est disposé à droite
+    </p>
+
+    <p style="text-align: center">
+    ce paragraphe sur deux lignes <br>
+     est disposé au centre
+    </p>
+
+    <p style="text-align: left">
+        ce paragraphe sur deux lignes <br>
+         est disposé à gauche
+    </p>
+
+    <p style="text-align: justify"><!-- lorem100 permet de générer 100 mots de texte, permet au texte de prendre toute la largeur de la page -->
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem vitae eaque id, natus nobis voluptatibus maiores exercitationem, expedita officiis neque fugiat fuga sequi? Dicta harum nihil officia. Maiores quos, voluptates dicta fugit, quisquam, sunt et reprehenderit quia repudiandae perspiciatis voluptatum rerum. Qui recusandae dignissimos blanditiis eos rem laudantium aut vero.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, non quas, veritatis, consequatur omnis quasi molestias id esse vel cumque quibusdam accusantium earum vitae ratione quos. Vel assumenda illo porro exercitationem. Cupiditate, recusandae quidem. Dolores optio debitis perferendis pariatur molestiae, assumenda, nemo voluptatum est exercitationem ea, error id sequi fugiat.
+    </p>
+
+    <p><!-- lorem100 permet de générer 100 mots de texte, permet au texte de prendre toute la largeur de la page -->
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem vitae eaque id, natus nobis voluptatibus maiores exercitationem, expedita officiis neque fugiat fuga sequi? Dicta harum nihil officia. Maiores quos, voluptates dicta fugit, quisquam, sunt et reprehenderit quia repudiandae perspiciatis voluptatum rerum. Qui recusandae dignissimos blanditiis eos rem laudantium aut vero.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, non quas, veritatis, consequatur omnis quasi molestias id esse vel cumque quibusdam accusantium earum vitae ratione quos. Vel assumenda illo porro exercitationem. Cupiditate, recusandae quidem. Dolores optio debitis perferendis pariatur molestiae, assumenda, nemo voluptatum est exercitationem ea, error id sequi fugiat.
+    </p>
+
+    <hr><!-- créer une ligne / un trait de séparation horizontale, horizontal rule ==> barre horizontale -->
+
+
+    <!-- Mise en valeur du texte -->
+    <p>
+        Lorem ipsum dolor <strong>amet consectetur adipisicing elit. </strong> Nobis minima facilis quisquam nemo modi unde?
+        <!-- La balise strong met le texte en gras -->
+
+    </p>
+    <p>
+        Lorem ipsum dolor <em>amet consectetur adipisicing elit. </em> Nobis minima facilis quisquam nemo modi unde?
+        <!-- la balise em met le texte en italique -->
+
+    </p>
+    <p>
+        Lorem ipsum dolor <mark>amet consectetur adipisicing elit. </mark> Nobis minima facilis quisquam nemo modi unde?
+        <!-- La balise mark surligne le texte -->
+
+    </p>
+
+
+    <!-- les listes -->
+    <ul>
+        <li>Chat</li>
+        <li>Chien</li>
+        <li>Mouton</li>
+    </ul>
+
+    <ol>
+        <li>Mochi</li>
+        <li>Paris-Brest</li>
+        <li>Glace Yaourt</li>
+    </ol>
+
+
+    <!-- Les couleurs -->
+    <p style="color: crimson">H</p>
+    <p style="color: lightseagreen">T</p>
+    <p style="color: darkgreen">M</p>
+    <p style="color: navy">L</p>
+    <br>
+
+    <p style="color: #dc143c">H</p><!-- Les couleurs Hexadecimale se trouve sur htmlcolorcode-->
+    <p style="color: #20b2aa">T</p>
+    <p style="color: #006400">M</p>
+    <p style="color: #000080">L</p>
+
+
+    <!-- la couleur de fond -->
+    <p style="background-color: cyan">Lorem, ipsum.</p>
+    <p style="background-color: pink">Lorem, ipsum dolor.</p>
+    <p style="background-color: violet">Lorem, ipsum dolor.</p>
+
+    <!-- Lies liens -->
+    <!-- On a pu voir qu'on pouvait faire des liens vers des fichiers comme le fichier 01_index.css-->
+    <link rel="stylesheet" href="CSS/01_index.css"><!-- Je tape li et VScode ne propose link css -->
+    <!-- Pour faire un lien vers une page internet via son url je fais comme suit:-->
+    <a href="http://colorhunt.co/">Site de colorhunt</a>
+
+    <!-- Les images -->
+    <img src="img/png-clipart-logo-travel-agent-skating-club-logo-black-and-white.png" alt="Logo avion">
+
+
+
+</body>
+</html>
