@@ -1,0 +1,48 @@
+*{
+    font-family: fantasy;
+}
+
+body{
+    width: 50%;
+    margin: auto;
+}
+
+table{
+    border: 6px solid indianred;
+    border-collapse: collapse; /* rassemble les border ensemble pour obtenir un border unique*/
+    width: 90%;
+    margin: 25px; /* marge extérieure de la balise*/
+}
+
+thead, tfoot{
+    background-color: rgb(119, 48, 62);
+    border: 1px solid rgb(119, 48, 62);
+}
+
+tbody{
+    border: 3px solid indianred;
+}
+
+th{
+    background-color: darkcyan; /* couleur en RGB= Red Green Blue */
+    border: 3px dotted indianred; /* dotted = pointillé */
+    padding: : 4px; /* marge intérieur, c'est ce qui permet d'éloigner du texte de la bordure de la balise*/
+    width: 25%;
+}
+
+td{
+    font-size: 100%;
+    border: 1px dotted  rgb(58, 4, 12);
+    text-align: center;
+    padding: 5px;
+}
+
+td:first-child{ /* 1er td pr aligner le texte à gauche de la première rangée*/
+text-align: left;
+background-color: rgb(196, 169, 166);
+}
+
+caption{
+    font-size: 50px;
+    
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaires HTML</title>
+    <link rel="stylesheet" href="CSS/03_formulaire.css">
+
+</head>
+<body>
+    <!-- je déclare mon formulaire avec la balise form-->
+    <form>
+        <label class="texte1">
+            Pseudo
+            <input type="text" name="pseudo" id="pseudo" placeholder="exemple" required>
+            <!-- L'id sert à utiliser la donnée avec d'autres langages, le placeholder contient le texte qui apparaît dans l'input, type permet de présicer le type de donnée récupéré, required précise au navigateur que le champs esst à renseigner obligatoirement -->
+        </label>
+
+        <br>
+        <br>
+      
+        <!-- Mot de passe -->
+        <label class="texte2" for="mdp"></label>
+        Mot de passe <span title="le mot de passe peu contenir....">*</span>
+        </label>
+            <input type="Password" name="mdp" placeholder="Mot de passe" required>
+
+
+        <br>
+        <br>
+      
+        <!-- Email -->
+        <label class="texte3" for="email">Email</label>
+             <input type="email" name="email" placeholder="Email">
+
+        <br>
+        <br>
+
+        <!-- fichier -->
+
+         <label class="texte4" for="Photo">Photo</label>
+             <input type="File" name="photo">
+
+
+         <br>
+         <br>
+
+
+         <!-- Les cases à cocher checkbox -->
+         <!-- Plusieurs choix -->
+         <label for="Question 1 ">Quelle destination choississez-vous ?</label>
+
+         <p>
+             <input type="checkbox" name="Réponse01">Italie
+             <input type="checkbox" name="Réponse01">Laos
+             <input type="checkbox" name="Réponse01">Thaïlande
+        </p>
+
+        <br>
+        <br>
+
+        <!-- cases à cocher radio -->
+        <!-- un choix -->
+        <label for="Question1">Qui seront vos acompagnateurs ?</label>
+        <p>
+            <input type="radio" name="réponse11">En famille
+            <input type="radio" name="réponse12" checked>Entre amis <!-- checked= coché par défaut-->
+            <input type="radio" name="résponse13">Solo
+        </p>
+
+        <br>
+        <br>
+
+        <!-- Zone de texte -->
+        <label for="commentaires">Commentaires</label>
+        <textarea name="commentaires" cols="80" rows="8"></textarea>
+        <!-- rows = nombre de lignes cols = nombre de colonnes/caractères-->
+
+        <br>
+
+        <!-- Bouton d'envoi du formulaire -->
+
+        <input type="submit" name="inscripption" value="Envoyer">
+
+        <!-- Bouton pour vider le formulaire -->
+
+        <input type="reset" name="annuler" value="Annuler">
+
+        <br>
+
+        <a href=" https://www.w3schools.com/html/html_form_input_types.asp
+        " target="_blank" rel="noopener noreferrer">W3school, les types d'input</a>
+
+        <br>
+
+        <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input" target="" rel="noopener noreferrer">petite documentation</a>
+
+
+
+       
+   
+
+    </form>
+</body>
+</html>
