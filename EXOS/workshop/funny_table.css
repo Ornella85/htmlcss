@@ -1,0 +1,47 @@
+body{
+    width: 90%;
+    margin: auto;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse; 
+    margin: 80px; 
+    width: 20%;
+}
+
+tbody{
+    border: 1px solid black;
+}
+
+
+td{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px; 
+    height: 7px;
+}
+
+
+.jaune{
+    background-color: rgb(241, 173, 45);
+}
+.taupe{
+    background-color: rgb(117, 98, 89);
+}
+.blc{
+    background-color: white;
+}
+.noir{
+    background-color: black;
+}
+.bleu{
+    background-color: rgb(11, 95, 250);
+}
+
+.taille{
+    background-color:  rgb(11, 95, 250);
+    padding: 2px;
+    height: 10px;
+}
+

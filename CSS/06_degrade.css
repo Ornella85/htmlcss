@@ -1,0 +1,27 @@
+.contenu{
+    height: 45em; /* hauteur */
+    width: 45em; /* largeur */
+    margin: auto; /* centre automatiquement la balise */
+    border-radius: 50%;
+    background: linear-gradient(to left, #40a497, #6840a4);
+    /* dégradé qui démarre avec la 1ere couleur en haut et la dernière en bas */
+    /* to left la 1ere couleur est à droite et la dernière à gauche */
+    /* lien vers un générateur de dégradé cssgradient.io */
+}
+
+.conten{
+    height: 45em; /* hauteur */
+    width: 45em; /* largeur */
+    margin: auto; /* centre automatiquement la balise */
+    border-radius: 50%;
+    background: linear-gradient(to left, #eeaeca, #e99499);
+}
+
+.conte{
+    height: 23.5em; /* hauteur */
+    width: 45em; /* largeur */
+    margin: auto; /* centre automatiquement la balise */
+    border-radius: 10%;
+    background: linear-gradient(to left, #eeaeca, #e99499);
+}
+
