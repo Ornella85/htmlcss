@@ -3,16 +3,6 @@ body{
     margin: auto;
 }
 
-table{
-    border: 1px solid black;
-    border-collapse: collapse; 
-    margin: 80px; 
-    width: 20%;
-}
-
-tbody{
-    border: 1px solid black;
-}
 
 
 td{
