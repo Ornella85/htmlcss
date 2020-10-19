@@ -1,10 +1,21 @@
 body{
-    background-color: rgb(252, 177, 177);
-    margin-left: auto;
-    margin-right: auto;
-    width: 35rem; 
+    background-color: rgb(163, 109, 116);
+    margin-left: 5em;
+    margin-right: 3em;
+    margin-top: 5em;
     
 }
 
+form{
+    border: 1px solid black;
+    margin: 10vh;
+    padding: 2rem 27rem 2rem;
+    background-color: rgb(243, 205, 210);
+
+}
+
+a{
+    color: rgb(56, 53, 53);
+}
 
 

@@ -16,4 +16,4 @@ Le dossier EXOS se compose de:
 01. workshop : les exercices en liens avec le cours sur les tableaux et les sélecteurs. 
 02. de 4 exercices et de sa correction : exercice de création d'une page html et savoir excecuter des consignes simples.
 
-Des notes sont ajoutées, composées de définitions et de liens pratiques sur vers des sites en concordances avec les cours.
+Des notes sont ajoutées, composées de définitions et de liens pratiques vers des sites en concordances avec les cours.
