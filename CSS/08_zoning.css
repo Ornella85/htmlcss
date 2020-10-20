@@ -1,0 +1,37 @@
+body{
+    font-family: cursive;
+}
+
+#contenu{
+    width: 80%;
+    margin: 10px auto;
+    background-color:  #be9595; /* le style est surchargé plus bas (il est écrasé par les commandes ci-dessous*/
+    border: 2px solid rgb(99, 8, 30);   /* #000 = #0000 = #00000 = couleur noire */
+}
+
+header, footer{
+    height: 80px;
+    background-color: rgb(99, 8, 30);
+    color: white; /* même consigne que pour la couleur noire ci-dessus */
+    text-align:center;
+    padding-top: 6px;
+}
+
+nav{
+    height: 40px;
+    background-color: rgb(97, 61, 70);
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+
+section{
+    border: 20px solid rgb(150, 85, 101);
+    background-color: #be9595;
+    height: 500px;
+    text-align: center;
+}
+
+p{
+    margin: 0;
+}
