@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Révision des sélecteurs CSS</title>
+    <link rel="stylesheet" href="css/04_bis_selecteurs.css">
+</head>
+
+    <body>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Edito</a>
+            <a href="#">Panier</a>
+            <a href="#">FAQ</a>
+            <a href="#">Nous contacter</a>
+        </nav>
+
+        <section class="container">
+            <h1>Aide Mémoire des sélecteurs CSS déjà vu</h1>
+
+            <ul>
+                <li>
+                    <mark>*</mark> sélectionne tous les éléments de la page HTML
+                </li>
+                <li>
+                    <mark>.ma-jolie-nav</mark> sélectionne tous les élémeents ayant le nom de class "ma-jolie-nav".
+                </li>
+                <li>
+                    <mark>#mon-unique-id</mark> sélectionne l'élément ayant le nom d'id "mon-unique-id"
+                </li>
+                <li>
+                    <mark>div, article, aside</mark> sélectionne toutes la balises &lt;div>, &lt;article> et &lt;aside>.
+                </li>
+                <li>
+                    <mark>nav a</mark> sélectionne tous les liens &lt;a> inclus/imbriqué dans la balise &lt;nav>.
+                </li>
+                <li>
+                    nav a<mark>:hover</mark> sélectionne tous les liens de la nav et actionne une animation au survol de la souris.
+                </li>
+            </ul>
+            <br />
+        </section>
+
+        <!--.container1>section*2>h2+h3+ol>li*16-->
+        <div class="container1">
+            <section class="container2">
+                <h2>Propriétés CSS utilisées dans cette page</h2>
+                <h3>Décrivez leur usage et leurs valeurs possibles</h3>
+                <ol>
+                    <li>background: définit les différentes valeurs des propriétés liées à la gestion des arrière-plans d'un élément. Valeurs: background-clip, background-color, background-image, background-origin, background-position, background-repeat, background-size et background-attachment.</li>
+                    <li>color : permet de définir des couleurs web personnalisées. valeurs avec # ou rgb </li>
+                    <li>float : indique qu'un élément doit être retiré du flux normal et doit être placé avec les valeurs: left, right, both</li>
+                    <li>font-family : permet de définir une liste, ordonnée par priorité, de polices à utiliser pour mettre en forme le texte de l'élément ciblé. valeurs: serif, sans serif, cursive</li>
+                    <li>font-size : définit la taille de fonte utilisée pour le texte. font-size: small; medium; large;</li>
+                    <li>height :pour changer la hauteur valeurs: auto, inherit, initial, px</li>
+                    <li>left : position à partir du bord gauche de l'écran,, en px ou autre </li>
+                    <li>line-height : changer la hauteur entre les lignes valeurs: normal, unset, em </li>
+                    <li>margin :  changer la taille des marges extérieures. valeurs : auto, 1 ou 2 ou 3 selon la hauteur, à droite ou à gauche et en bas </li>
+                    <li>padding : changer la taille des marges intérieures. valeurs: même principe que margin </li>
+                    <li>position : positionner un élément. S'utilise aavec left, top, right et bottom. valeurs: relative, absolut, fixed</li>
+                    <li>text-align : Alignement du texte. valeurs: right, left, center </li>
+                    <li>text-decoration : dans notre cas, on l'a utilisé pour retirer l'underline des a avec la valeur none. valeurs: none, underline, </li>
+                    <li>top : position à partir du haut de l'écran,, en px ou autre </li>
+                    <li>transition :  permet de contrôler la vitesse d'animation lorsque les propriétés CSS sont modifiées. valeurs en seconde, transition-property,-duration,-delay</li>
+                    <li>width :largeur d'un élément, en px ou em</li>
+                </ol>
+            </section>
+
+            <section class="container3">
+                <h2>Propriétés CSS à rechercher</h2>
+                <h3>Recherchez les propriétés ci-dessous, faites des tests sur cette page en utilisant la console de debuggage pour tester les valeurs qu'elles peuvent prendre (F12 dans le navigateur)</h3>
+                <ol>
+                    <li>font-weight : permet de définir la graisse utilisée pour le texte: normal, bold, bolder ou unité de valeur de 1 à 1000 </li>
+
+                    <li>letter-spacing : définit l'espace entre les lettres: normal ou des valeurs comme em, px et des virgules </li>
+
+                    <li>word-spacing : espace entre les mots:normal ou des valeurs comme em, px, des virgules et % </li>
+
+                    <li>text-shadow :  ajoute des ombres au texte, axe x| y| fondu, couleur, ex: 1px 1px 2px black </li>
+
+                    <li>background : définit un motif d'arrière plan, on peut mettre des dégradés ou une url, on peut superpositionner plusieurs choses (couleur, image, origine, taille, répétition, etc.). </li>
+
+                    <li>background-size : définit la taille du fond, on peut utiliser cover, contain ou des valeurs.</li>
+
+                    <li>opacity : définit la transparence d'un élément, de 0 invisible à 1 visible en passant par 0.5 à moitié visible </li>
+
+                    <li>border-style : le type de bordure: dotted, dashed, solid, double, groove, ridge </li>
+
+                    <li>box-shadow : ajoute des ombres à la boîte d'un élément via une liste d'ombres séparées par des virgules. s'utilise : axe x| y| blur-radius| spread-radius | couleur (diffuser) . ex : 2px 2px 2px 2 px 1px rgba(0, 0, 0, 0, 0.2)</li>
+
+                    <li>list-style-image : définit l'image utilisée comme puce devant les éléments de listes. </li>
+
+                    <li>border : permet de créer une bordure, pn peut y placer plusieurs valeur comme pour background. largeur| son type de trait|couleur. </li>
+
+                    <li>border-radius : permet de définir des coins arrondis pour la bordure d'un élément, ordre: haut à gauche|haut à droite|bas à droite|bas à gauche</li>
+
+                    <li>border-width :épaisseur de la bordure : px, em, thin, medium, thick. fonctionne comme pour le padding. </li>
+
+                    <li>font-variant : modifie la police en fonction des valeurs que l'on a mis. ex: font-variant: small-caps</li>
+
+                    <li>background-color :permet de définir la couleur utilisée pour l'arrière-plan d'un élément (celle-ci peut être une couleur transparente). Accepte le rgb, rgba et hexadecimaux, nom de valeur en anglais, hxl et hlsa (comme rgb mais avec des pourcentage) .</li>
+
+                    <li>!important : passer outre les poids et spécificités des sélecteurs pour imposer le sien. à mettre à la fin d'une ligne css pour forcer le navigateur à appliquer le style. Il ne sera pas surcharger et il faut éviter de l'utiliser.</li>
+                </ol>
+            </section>
+            
+            <div class="clear"></div>
+        </div> <!-- fin de la div container -->
+
+        <section class="container container4">
+            <h2>
+                Pour aller plus loin en css, quelques pistes ...
+            </h2>
+            <ul><!-- ul>li*8>a-->
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN le site officiel de mozilla</a></li>
+                <li><a href="https://tympanus.net/codrops/">Codrops, références, tutos ...</a></li>
+                <li><a href="https://flukeout.github.io/">Jeu avec sélecteurs css</a></li>
+                <li><a href="http://flexboxfroggy.com/">Autre jeu avec les flex box</a></li>
+                <li><a href="http://viewportsizes.com/">Différentes tailles d'écran</a></li>
+                <li><a href="http://fr.learnlayout.com/">Displays</a></li>
+                <li><a href="https://purecss.io">Encore des tutos</a></li>
+                <li><a href="https://www.w3c.org/Style/CSS/learning">W3C partie CSS</a></li>
+            </ul>
+        </section>
+    </body>
+    </html>

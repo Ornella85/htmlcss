@@ -1,0 +1,98 @@
+*{
+    font-family: sans-serif;
+}
+
+nav{
+    background: #000; /* défini que la couleur, on peut mettre plusieurs valeurs */
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0; /* position à partir du haut de l'écran */
+    left: 0; /* position à partir du bord gauche de l'écran */
+    padding: 0 0 20px; /* top rght bottom left*/
+}
+
+nav a{
+    float: left;
+    text-decoration: none; /* pas de soulignage dans le cas des liens*/
+    color: #fff;  /* récupéré dans nav */
+    height: 2.8em; /* nous 'avos pas donné de hauteur à la nav alors celle ci va prendre celle de des enfants*/
+    line-height: 2.7em; /* interline*/
+    padding: 0em 2em;
+    font-size: 1.2em;
+    transition: 2s;
+}
+
+nav a:hover{
+    background-color: #fda500;
+    color: #000;
+    transform: rotateZ(360deg);
+    transition: 400ms;
+}
+
+.container{
+    width: 70%;
+    margin: 4% auto 2%; /* 4% en haut auto et 2% en bas*/
+    background-color: #f7dd88;
+    padding: 2em;
+}
+
+mark{
+    background-color: #f7ba88;
+}
+
+.container1{
+    width: 70%;
+    margin: 2% auto;
+    background: #f7dd88;;
+    padding: 2%;
+}
+
+.container2, .container3{
+    width: 44.5%;
+    background: #f1fcde;
+    padding: 2%;
+    float: left;
+}
+
+.container2{
+    margin-right: 1.5%;
+}
+.container3{
+    margin-left: 1.5%;
+}
+.container4{
+    margin-top: 2em;
+}
+
+.clear{
+    clear: both;
+}
+
+.container li
+{
+    list-style-type: none ;
+    background-image: url(../img/icone_travaux.png); /* on affiche l'image souhaitée */
+    background-repeat: no-repeat; /* on annule la répétition par défaut */
+    background-position: left center; /* on positionne où l'on veut */
+    padding-left: 20px; /* pour éviter la superposition du contenu */
+}
+a{
+    color: rgb(73, 35, 28);
+}
+
+.container3 ol li:nth-of-type(11){
+    border: 1px solid darkred;
+}
+.container3 ol li:first-child{ /* premier li dans ol et container */
+    font-weight: bolder;
+}
+.container3 ol li:nth-of-type(7){ /* correspond à 1 li dans ol et container */
+opacity: 0.5;
+}
+.container3 ol li:last-child{
+color: darkred;
+}
+
+
