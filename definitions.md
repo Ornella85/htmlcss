@@ -19,3 +19,9 @@ est un plugin de SublimeText (NdT: et d'autres éditeurs de texte) qui peut êtr
 World Wild Web Consortium
 Organisme mondial créé par Tim Berners Lee dont l'objectif est de garantir la pérénité et l'interopérabilité des standars de langage webComposé de la plupart des acteurs de la toile (Microsoft, Mozilla, Opera, IBM, ...), le W3C a pour charge de rédiger et proposer les
 spécifications HTML, XHTML, CSS, SVG, ECMAScript, etc.
+
+# Media Querie
+Media querie permet de réaranger la disposition du site en fonction des tailles de navigateurs en pixels. 
+
+# CDN 
+content delevery network, la bibliothèque en ligne de Bootstrap pour nous 

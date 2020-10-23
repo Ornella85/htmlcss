@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     font-size: 1.5em;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(252, 252, 252);
 }
 ul {
     list-style: none; 
@@ -14,22 +14,23 @@ ul {
 }
 .left ul {
     margin: 3.2em 0 0 0;
+
 }
 .left ul li {
-    border-bottom: 1px solid white;
-    border-left: 1px solid white;
-    padding: 1 em;
-    width: 10em;;
+    border-bottom: 1px solid rgb(73, 70, 70);
+    border-left: 1px solid rgb(73, 70, 70);
+    padding: 1em;
+    width: 10em;
 }
 .left ul li:first-child {
-    border-top: 1px solid white;
+    border-top: 1px solid rgb(73, 70, 70);
 }
 ul.liste li {
-    border-left: 1px solid white;
+    border-left: 1px solid rgb(73, 70, 70);
 }
 .right .change ul li {
-    border-top: 1px solid white;
-    border-right: 1px solid white;
+    border-top: 1px solid rgb(73, 70, 70);
+    border-right: 1px solid rgb(73, 70, 70);
     padding: 1em;
     width: 10em;
     text-align: center;
@@ -40,7 +41,7 @@ ul.liste li {
     font-weight: bold;
 }
 .right .change ul li:last-child {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(73, 70, 70);
 }
 .right .change ul:hover {
     background: linear-gradient(green, yellow);
@@ -52,13 +53,13 @@ ul.liste li {
     background-color: black;
 }
 .change:hover #premium {
-    color: #89F2FF
+    color: #2f6c74
 }
 .change:hover #gold {
     color: #FFD700
 }
 .change:hover #silver {
-    color: #BFC1C2
+    color: #4d4f50
 }
 .clear {
     clear: both;

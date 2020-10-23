@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GRILLE FLEX HTML</title>
+        <link rel="stylesheet" href="CSS/12_grille_flex.css">
+    </head>
+
+    <body>
+        <div class="conteneur">
+            <header class="col_12 jaune"></header>
+
+            <div class="row"> <!-- principe de boot strap voir le site : -->
+                <div class="col_4 bleu">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat saepe impedit, quo quis placeat, eius cum consequuntur, quasi fugiat veritatis in quam reprehenderit deleniti corrupti itaque modi accusantium. Officiis repudiandae dolor in reiciendis velit iure aperiam neque cum quos asperiores!
+                    </p>
+                </div>
+
+                <div class="col_4 rose"> B </div>
+
+                <div class="col_4 vert">
+                    <div class="row"> 
+                        <!-- .col-6*2 le point . appel une div avec une class nommée col-6-->
+                        <div class="col_6 bleu"> 1/ sous-colonne</div>
+
+                        <div class="col_6"> 2/ sous-colonne</div>
+                    </div>
+                </div>   
+            </div>
+
+            <section class="row">
+                <div class="col_10 marge_1 rose">Centre</div> <!-- 10 colonnes de 12 -->
+            </section>
+
+            <hr class="col_12 bleu">
+
+            <footer class="row"> <!-- Rappel Emmet: .col_4*3 -->
+                <div class="col_4">
+                    <p>coucou</p>
+                </div>
+
+                <div class="col_4">
+                    <p>coucou</p>
+                </div>
+
+                <div class="col_4">
+                    <p>coucou</p>
+                </div>
+            </footer>
+
+        </div>
+    </body>
+
+</html>
