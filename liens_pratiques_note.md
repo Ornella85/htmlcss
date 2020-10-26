@@ -56,6 +56,9 @@ pour les col:
 .col_11 {width:91.666666%;}
 .col_12 {width: 100%;}
 
+https://bootswatch.com/:
+pour changer le thème et les couleurs
+
 Entrainement pour taper sur le clavier:
 https://www.typingclub.com/dactylographie
 
