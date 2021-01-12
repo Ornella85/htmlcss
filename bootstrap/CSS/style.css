@@ -1,0 +1,60 @@
+/* Nous allons surcharger le style de Bootstrap */
+/* !important force le style à être appliqué, background: #d95700; */
+
+
+
+/*nav.navbar.bg-primary, .bg-primary, a.bt-primary, anav-link.active{
+    background-color: orangered;
+}*/
+
+nav.navbar-expand-lg,.navbar-dark, .bg-primary, .btn, .btn-primary{
+    background-color: orangered !important;
+    border-color:  orangered;
+}
+
+body{
+    background-color: bisque;
+}
+
+.jumbotron{
+    background-color: #f8ba68;
+    border-top: 3px solid rgb(219, 219, 219);
+}
+
+.nav-link{
+    color: orangered ;
+}
+
+.card{
+    float: right;
+    left: -35px;
+}
+
+.card-body{
+    background-color: bisque;
+}
+
+.row{
+    padding-left: 2em;
+}
+h2{
+    padding-left: 1em;
+}
+
+.progress{
+    width: 50%;
+    background-color: rgb(102, 73, 63) ;
+}
+
+.progress-bar{
+    background-color: orangered
+}
+
+.progress, .progress-bar{
+    
+}
+
+
+
+
+

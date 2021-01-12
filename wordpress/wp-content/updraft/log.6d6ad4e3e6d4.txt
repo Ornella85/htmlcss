@@ -1,0 +1,387 @@
+0000.001 (0) Opened log file at time: Mon, 11 Jan 2021 15:29:27 +0000 on http://localhost/wordpress-5.6/wordpress
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.46 WP: 5.6 PHP: 7.4.11 (apache2handler, Windows NT DESKTOP-4DN4L7B 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: fr_FR Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 39.5M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 415905.8 MB
+0000.010 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.015 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.028 (0) Set semaphore last lock (fd) time to 2021-01-11 15:29:27
+0000.029 (0) Semaphore lock (fd) complete
+0000.035 (0) Backup run: resumption=0, nonce=6d6ad4e3e6d4, file_nonce=6d6ad4e3e6d4 begun at=1610378967 (0s ago), job type=backup
+0000.039 (0) Scheduling a resumption (1) after 300 seconds (1610379267) in case this run gets aborted
+0000.051 (0) Checking if we have a zip executable available
+0000.055 (0) Creation of backups of directories: beginning
+0000.064 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.609 (0) Total entities for the zip file: 240 directories, 1475 files (0 skipped as non-modified), 28.1 MB
+0000.695 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.774 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.823 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.873 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.919 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.971 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.012 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.052 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.061 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 1475 files batched, 817 (817) added so far); re-opening (prior size: 0 KB)
+0003.191 (0) A useful amount of data was added after this amount of zip processing: 4 s (normalised: 4 s, rate: 6447.8 KB/s)
+0003.195 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.970575094223, normalised_time=3.9703485148858, max_time=3.1925342082977, data points known=1, old_max_bytes=26214400, new_max_bytes=39615262)
+0003.243 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip.tmp: 900 files added (on-disk size: 7849.8 KB)
+0003.283 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip.tmp: 1000 files added (on-disk size: 7849.8 KB)
+0003.325 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip.tmp: 1100 files added (on-disk size: 7849.8 KB)
+0003.369 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip.tmp: 1200 files added (on-disk size: 7849.8 KB)
+0003.413 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip.tmp: 1300 files added (on-disk size: 7849.8 KB)
+0003.467 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip.tmp: 1400 files added (on-disk size: 7849.8 KB)
+0003.998 (0) Created plugins zip (0) - 8945 KB in 3.9 s (2276.2 KB/s) (sha1: 956c341764081c10f0205d85414e7feb14bdde4a, sha256: 08eaad0bbbc383f46a39dc40efa201956986a2ce811691e92889cf8d2d94ef9a)
+0004.003 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.352 (0) Total entities for the zip file: 209 directories, 866 files (0 skipped as non-modified), 12.9 MB
+0004.393 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.433 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.473 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0004.517 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0004.558 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0004.597 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0004.635 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0004.676 (0) Zip: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0005.320 (0) Created themes zip (0) - 7651.6 KB in 1.3 s (5833.8 KB/s) (sha1: bc3a4a83e70cd1dd1a63f27c4d6523b220bf845f, sha256: d5c0037f482a9f9179bf6f0ff740687f7a599745043eceb3793503372750961a)
+0005.325 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0005.327 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress-5.6\wordpress/wp-content/uploads
+0005.330 (0) finding files: 2021: adding to list (1)
+0005.332 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0005.345 (0) Total entities for the zip file: 2 directories, 22 files (0 skipped as non-modified), 1.6 MB
+0005.397 (0) Created uploads zip (0) - 1639.1 KB in 0.1 s (27072.6 KB/s) (sha1: f7a78b321a69e74fa197a5ae54b797da0bd7ad93, sha256: d73a19013403ea9592527ce570dac0049cc7fef7067ee635204d257dd964890a)
+0005.402 (0) Beginning backup of other directories found in the content directory (index: 0)
+0005.404 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0005.407 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress-5.6\wordpress/wp-content
+0005.409 (0) finding files: index.php: adding to list (1)
+0005.411 (0) finding files: languages: adding to list (2)
+0005.413 (0) finding files: plugins: skipping: this is the plugins directory
+0005.415 (0) finding files: themes: skipping: this is the themes directory
+0005.417 (0) finding files: updraft: skipping: this is the updraft directory
+0005.419 (0) finding files: upgrade: skipping: excluded by options
+0005.421 (0) finding files: uploads: skipping: this is the uploads directory
+0005.450 (0) Total entities for the zip file: 3 directories, 76 files (0 skipped as non-modified), 3.1 MB
+0005.786 (0) Created others zip (0) - 918.3 KB in 0.4 s (2547.3 KB/s) (sha1: da3c13a0845035ddf55bceb243402985e69d91cf, sha256: 5d69b90dd1724688eaf0c91748d7be5ea43e36a83c0fbbcd63ef670461b06a8f)
+0005.796 (0) Saving backup status to database (elements: 8)
+0005.800 (0) Beginning creation of database dump (WordPress DB)
+0005.803 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0005.819 (0) Table wp_options: Total expected rows (approximate): 211
+0005.866 (0) Table wp_options: Rows added in this batch (next record: 263): 209 (uncompressed bytes in this segment=614860) in 0.05 seconds
+0005.885 (0) Table wp_options: finishing file(s) (2, 126.8 KB)
+0005.891 (0) Table wp_users: Total expected rows (approximate): 1
+0005.912 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1378) in 0.02 seconds
+0005.924 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0005.928 (0) Table wp_usermeta: Total expected rows (approximate): 22
+0005.944 (0) Table wp_usermeta: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=1885) in 0.01 seconds
+0005.955 (0) Table wp_usermeta: finishing file(s) (2, 1 KB)
+0005.960 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0005.974 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.01 seconds
+0005.986 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0005.990 (0) Table wp_comments: Total expected rows (approximate): 1
+0006.011 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2178) in 0.02 seconds
+0006.023 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0006.028 (0) Table wp_links: Total expected rows (approximate): 0
+0006.047 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.02 seconds
+0006.059 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0006.063 (0) Table wp_postmeta: Total expected rows (approximate): 109
+0006.079 (0) Table wp_postmeta: Rows added in this batch (next record: 118): 109 (uncompressed bytes in this segment=11426) in 0.01 seconds
+0006.096 (0) Table wp_postmeta: finishing file(s) (2, 2.6 KB)
+0006.100 (0) Table wp_posts: Total expected rows (approximate): 38
+0006.128 (0) Table wp_posts: Rows added in this batch (next record: 45): 41 (uncompressed bytes in this segment=260096) in 0.03 seconds
+0006.150 (0) Table wp_posts: finishing file(s) (2, 22.5 KB)
+0006.155 (0) Table wp_term_relationships: Total expected rows (approximate): 5
+0006.175 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 5 (uncompressed bytes in this segment=744) in 0.02 seconds
+0006.187 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0006.191 (0) Table wp_term_taxonomy: Total expected rows (approximate): 2
+0006.213 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=939) in 0.02 seconds
+0006.229 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0006.234 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0006.259 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.02 seconds
+0006.273 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0006.283 (0) Table wp_terms: Total expected rows (approximate): 2
+0006.302 (0) Table wp_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=748) in 0.02 seconds
+0006.314 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0006.316 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_options.table.tmpr264.gz (1/12): adding to final database dump
+0006.349 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_options.table.gz (2/12): adding to final database dump
+0006.351 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_users.table.tmpr2.gz (3/12): adding to final database dump
+0006.356 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_users.table.gz (4/12): adding to final database dump
+0006.359 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_usermeta.table.tmpr23.gz (5/12): adding to final database dump
+0006.364 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_usermeta.table.gz (6/12): adding to final database dump
+0006.367 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_commentmeta.table.tmpr0.gz (7/12): adding to final database dump
+0006.370 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_commentmeta.table.gz (8/12): adding to final database dump
+0006.372 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_comments.table.tmpr2.gz (9/12): adding to final database dump
+0006.376 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_comments.table.gz (10/12): adding to final database dump
+0006.378 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_links.table.tmpr0.gz (11/12): adding to final database dump
+0006.380 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_links.table.gz (12/12): adding to final database dump
+0006.382 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_postmeta.table.tmpr119.gz (13/12): adding to final database dump
+0006.384 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_postmeta.table.gz (14/12): adding to final database dump
+0006.386 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_posts.table.tmpr46.gz (15/12): adding to final database dump
+0006.395 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_posts.table.gz (16/12): adding to final database dump
+0006.396 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_term_relationships.table.tmpr100001.gz (17/12): adding to final database dump
+0006.398 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_term_relationships.table.gz (18/12): adding to final database dump
+0006.400 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_term_taxonomy.table.tmpr3.gz (19/12): adding to final database dump
+0006.402 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_term_taxonomy.table.gz (20/12): adding to final database dump
+0006.403 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_termmeta.table.tmpr0.gz (21/12): adding to final database dump
+0006.405 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_termmeta.table.gz (22/12): adding to final database dump
+0006.407 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_terms.table.tmpr3.gz (23/12): adding to final database dump
+0006.409 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db-table-wp_terms.table.gz (24/12): adding to final database dump
+0006.430 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db.gz: finished writing out complete database file (120 KB)
+0006.449 (0) Total database tables backed up: 12 (backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db.gz, size: 157574, sha1: 26d3df091987053b80768f9ac9224149ef4a1989, sha256: 8e81a1a1d5e59794df99efc3344d9c2d119657dd63a232e5f077f8b15ec90773)
+0006.456 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0006.458 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0006.460 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0006.461 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-others.zip: others: This file has not yet been successfully uploaded: will queue
+0006.463 (0) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.464 (0) Saving backup history. Total backup size: 18.9 MB
+0006.468 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0006.474 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0006.477 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-43ed1ecc217da85ca9e52a2a5dcc9948)
+0007.467 (0) Google Drive: quota usage: used=36.3 MB, total=30720 MB, available=30683.7 MB
+0007.473 (0) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip: Attempting to upload to Google Drive (into folder id: 1_VI6Q7C7yhdOEBY0sE0XAh5uBq5qNBsH)
+0008.132 (0) Googledrive chunked upload: 11.4 % uploaded (1048576)
+0008.448 (0) Googledrive chunked upload: 22.9 % uploaded (2097152)
+0068.454 (0) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\wordpress-5.6\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0068.460 (0) An error condition has occurred for the first time during this job
+0068.779 (0) Google Drive: quota usage: used=36.3 MB, total=30720 MB, available=30683.7 MB
+0068.785 (0) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip: Attempting to upload to Google Drive (into folder id: 1_VI6Q7C7yhdOEBY0sE0XAh5uBq5qNBsH)
+0069.430 (0) Googledrive chunked upload: 13.4 % uploaded (1048576)
+0069.736 (0) Googledrive chunked upload: 26.8 % uploaded (2097152)
+0070.046 (0) Googledrive chunked upload: 40.1 % uploaded (3145728)
+0130.054 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\wordpress-5.6\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0130.494 (0) Google Drive: quota usage: used=36.3 MB, total=30720 MB, available=30683.7 MB
+0130.499 (0) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-uploads.zip: Attempting to upload to Google Drive (into folder id: 1_VI6Q7C7yhdOEBY0sE0XAh5uBq5qNBsH)
+0190.850 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\wordpress-5.6\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0191.506 (0) Google Drive: quota usage: used=36.3 MB, total=30720 MB, available=30683.7 MB
+0191.512 (0) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-others.zip: Attempting to upload to Google Drive (into folder id: 1_VI6Q7C7yhdOEBY0sE0XAh5uBq5qNBsH)
+0193.001 (0) Googledrive chunked upload: 100 % uploaded
+0193.006 (0) Google Drive: OK: Archive backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-others.zip uploaded in 1.49 seconds
+0193.008 (0) Recording as successfully uploaded: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-others.zip
+0193.011 (0) Deleting local file: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-others.zip: OK
+0193.320 (0) Google Drive: quota usage: used=37.2 MB, total=30720 MB, available=30682.8 MB
+0193.325 (0) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db.gz: Attempting to upload to Google Drive (into folder id: 1_VI6Q7C7yhdOEBY0sE0XAh5uBq5qNBsH)
+0194.911 (0) Googledrive chunked upload: 100 % uploaded
+0194.916 (0) Google Drive: OK: Archive backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db.gz uploaded in 1.59 seconds
+0194.917 (0) Recording as successfully uploaded: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db.gz
+0194.921 (0) Deleting local file: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db.gz: OK
+0194.924 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0194.926 (0) Number of backup sets in history: 2; groups (db): 1
+0194.927 (0) Examining (for databases) backup set with group_id=0, nonce=6d6ad4e3e6d4, datestamp=1610378967 (Jan 11 2021 15:29:27)
+0194.929 (0) This backup set is the backup set just made, so will not be deleted.
+0194.929 (0) Examining (for databases) backup set with group_id=0, nonce=913379f966b7, datestamp=1610378377 (Jan 11 2021 15:19:37)
+0194.929 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0194.930 (0) Number of backup sets in history: 2; groups (files): 1
+0194.931 (0) Examining (for files) backup set with nonce=6d6ad4e3e6d4, datestamp=1610378967 (Jan 11 2021 15:29:27)
+0194.931 (0) This backup set is the backup set just made, so will not be deleted.
+0194.933 (0) This backup set is the backup set just made, so will not be deleted.
+0194.933 (0) This backup set is the backup set just made, so will not be deleted.
+0194.933 (0) This backup set is the backup set just made, so will not be deleted.
+0194.933 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0194.934 (0) Examining (for files) backup set with nonce=913379f966b7, datestamp=1610378377 (Jan 11 2021 15:19:37)
+0194.934 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0194.934 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0194.938 (0) Resume backup (6d6ad4e3e6d4, 0): finish run
+0194.944 (0) Decremented the semaphore (fd) by 1
+0194.948 (0) Semaphore (fd) unlocked
+0194.950 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0194.955 (0) Rescheduling resumption 1: moving to 60 seconds from now (1610379222)
+0194.958 (0) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+0259.954 (1) Opened log file at time: Mon, 11 Jan 2021 15:33:47 +0000 on http://localhost/wordpress-5.6/wordpress
+0259.956 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.46 WP: 5.6 PHP: 7.4.11 (apache2handler, Windows NT DESKTOP-4DN4L7B 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: fr_FR Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 28.8M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0259.957 (1) Free space on disk containing Updraft's temporary directory: 415870.5 MB
+0259.961 (1) Backup run: resumption=1, nonce=6d6ad4e3e6d4, file_nonce=6d6ad4e3e6d4 begun at=1610378967 (260s ago), job type=backup, previous check-in=194.9s
+0259.964 (1) Scheduling a resumption (2) after 300 seconds (1610379527) in case this run gets aborted
+0259.977 (1) Checking if we have a zip executable available
+0259.978 (1) Creation of backups of directories: already finished
+0259.980 (1) Saving backup status to database (elements: 8)
+0259.988 (1) Database dump (WordPress DB): Creation was completed already
+0259.990 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0259.994 (1) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0259.996 (1) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0259.997 (1) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0259.998 (1) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-others.zip: others: This file has already been successfully uploaded
+0260.000 (1) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db.gz: db: This file has already been successfully uploaded
+0260.001 (1) Saving backup history. Total backup size: Unknown
+0260.005 (1) Requesting upload of the files that have not yet been successfully uploaded (3)
+0260.008 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0260.010 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-43ed1ecc217da85ca9e52a2a5dcc9948)
+0260.905 (1) Google Drive: quota usage: used=37.3 MB, total=30720 MB, available=30682.7 MB
+0260.911 (1) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip: Attempting to upload to Google Drive (into folder id: 1_VI6Q7C7yhdOEBY0sE0XAh5uBq5qNBsH)
+0261.008 (1) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip: upload already began; attempting to resume from byte 2883583
+0261.345 (1) Googledrive chunked upload: 42.9 % uploaded (3932160)
+0261.755 (1) Googledrive chunked upload: 54.4 % uploaded (4980736)
+0321.761 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\wordpress-5.6\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0321.766 (1) An error condition has occurred for the first time during this job
+0322.069 (1) Google Drive: quota usage: used=37.3 MB, total=30720 MB, available=30682.7 MB
+0322.071 (1) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip: Attempting to upload to Google Drive (into folder id: 1_VI6Q7C7yhdOEBY0sE0XAh5uBq5qNBsH)
+0322.136 (1) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip: upload already began; attempting to resume from byte 3932159
+0382.143 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\wordpress-5.6\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0382.481 (1) Google Drive: quota usage: used=37.3 MB, total=30720 MB, available=30682.7 MB
+0382.486 (1) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-uploads.zip: Attempting to upload to Google Drive (into folder id: 1_VI6Q7C7yhdOEBY0sE0XAh5uBq5qNBsH)
+0383.195 (1) Googledrive chunked upload: 62.5 % uploaded (1048576)
+0384.465 (1) Googledrive chunked upload: 100 % uploaded (1048576)
+0384.471 (1) Google Drive: OK: Archive backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-uploads.zip uploaded in 1.98 seconds
+0384.472 (1) Recording as successfully uploaded: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-uploads.zip
+0384.477 (1) Deleting local file: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-uploads.zip: OK
+0384.481 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0384.482 (1) Number of backup sets in history: 2; groups (db): 1
+0384.484 (1) Examining (for databases) backup set with group_id=0, nonce=6d6ad4e3e6d4, datestamp=1610378967 (Jan 11 2021 15:29:27)
+0384.485 (1) This backup set is the backup set just made, so will not be deleted.
+0384.485 (1) Examining (for databases) backup set with group_id=0, nonce=913379f966b7, datestamp=1610378377 (Jan 11 2021 15:19:37)
+0384.486 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0384.487 (1) Number of backup sets in history: 2; groups (files): 1
+0384.488 (1) Examining (for files) backup set with nonce=6d6ad4e3e6d4, datestamp=1610378967 (Jan 11 2021 15:29:27)
+0384.488 (1) This backup set is the backup set just made, so will not be deleted.
+0384.490 (1) This backup set is the backup set just made, so will not be deleted.
+0384.490 (1) This backup set is the backup set just made, so will not be deleted.
+0384.490 (1) This backup set is the backup set just made, so will not be deleted.
+0384.490 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0384.492 (1) Examining (for files) backup set with nonce=913379f966b7, datestamp=1610378377 (Jan 11 2021 15:19:37)
+0384.492 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0384.492 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0384.497 (1) Resume backup (6d6ad4e3e6d4, 1): finish run
+0384.500 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0384.504 (1) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+0614.860 (2) Opened log file at time: Mon, 11 Jan 2021 15:39:42 +0000 on http://localhost/wordpress-5.6/wordpress
+0614.861 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.46 WP: 5.6 PHP: 7.4.11 (apache2handler, Windows NT DESKTOP-4DN4L7B 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: fr_FR Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 28.8M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0614.863 (2) Free space on disk containing Updraft's temporary directory: 415869.2 MB
+0614.866 (2) Backup run: resumption=2, nonce=6d6ad4e3e6d4, file_nonce=6d6ad4e3e6d4 begun at=1610378967 (615s ago), job type=backup, previous check-in=124.5s
+0614.869 (2) Scheduling a resumption (3) after 300 seconds (1610379882) in case this run gets aborted
+0614.879 (2) Checking if we have a zip executable available
+0614.880 (2) Creation of backups of directories: already finished
+0614.882 (2) Saving backup status to database (elements: 8)
+0614.891 (2) Database dump (WordPress DB): Creation was completed already
+0614.893 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0614.897 (2) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0614.898 (2) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0614.900 (2) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-uploads.zip: uploads: This file has already been successfully uploaded
+0614.901 (2) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-others.zip: others: This file has already been successfully uploaded
+0614.903 (2) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db.gz: db: This file has already been successfully uploaded
+0614.904 (2) Saving backup history. Total backup size: Unknown
+0614.908 (2) Requesting upload of the files that have not yet been successfully uploaded (2)
+0614.911 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0614.913 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-43ed1ecc217da85ca9e52a2a5dcc9948)
+0615.812 (2) Google Drive: quota usage: used=38.9 MB, total=30720 MB, available=30681.1 MB
+0615.813 (2) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip: Attempting to upload to Google Drive (into folder id: 1_VI6Q7C7yhdOEBY0sE0XAh5uBq5qNBsH)
+0615.888 (2) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip: upload already began; attempting to resume from byte 5767167
+0616.239 (2) Googledrive chunked upload: 74.4 % uploaded (6815744)
+0616.591 (2) Googledrive chunked upload: 85.9 % uploaded (7864320)
+0616.913 (2) Googledrive chunked upload: 97.3 % uploaded (8912896)
+0618.231 (2) Googledrive chunked upload: 100 % uploaded (8912896)
+0618.240 (2) Google Drive: OK: Archive backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip uploaded in 2.42 seconds
+0618.242 (2) Recording as successfully uploaded: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip
+0618.249 (2) Deleting local file: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip: OK
+0618.737 (2) Google Drive: quota usage: used=47.7 MB, total=30720 MB, available=30672.3 MB
+0618.743 (2) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip: Attempting to upload to Google Drive (into folder id: 1_VI6Q7C7yhdOEBY0sE0XAh5uBq5qNBsH)
+0618.827 (2) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip: upload already began; attempting to resume from byte 4718591
+0619.170 (2) Googledrive chunked upload: 73.6 % uploaded (5767168)
+0679.178 (2) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\wordpress-5.6\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0679.184 (2) An error condition has occurred for the first time during this job
+0679.188 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0679.190 (2) Number of backup sets in history: 2; groups (db): 1
+0679.193 (2) Examining (for databases) backup set with group_id=0, nonce=6d6ad4e3e6d4, datestamp=1610378967 (Jan 11 2021 15:29:27)
+0679.195 (2) This backup set is the backup set just made, so will not be deleted.
+0679.195 (2) Examining (for databases) backup set with group_id=0, nonce=913379f966b7, datestamp=1610378377 (Jan 11 2021 15:19:37)
+0679.195 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0679.197 (2) Number of backup sets in history: 2; groups (files): 1
+0679.199 (2) Examining (for files) backup set with nonce=6d6ad4e3e6d4, datestamp=1610378967 (Jan 11 2021 15:29:27)
+0679.199 (2) This backup set is the backup set just made, so will not be deleted.
+0679.201 (2) This backup set is the backup set just made, so will not be deleted.
+0679.201 (2) This backup set is the backup set just made, so will not be deleted.
+0679.201 (2) This backup set is the backup set just made, so will not be deleted.
+0679.201 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0679.203 (2) Examining (for files) backup set with nonce=913379f966b7, datestamp=1610378377 (Jan 11 2021 15:19:37)
+0679.203 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0679.203 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0679.207 (2) Resume backup (6d6ad4e3e6d4, 2): finish run
+0679.211 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0679.216 (2) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+0926.510 (3) Opened log file at time: Mon, 11 Jan 2021 15:44:54 +0000 on http://localhost/wordpress-5.6/wordpress
+0926.512 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.46 WP: 5.6 PHP: 7.4.11 (apache2handler, Windows NT DESKTOP-4DN4L7B 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: fr_FR Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 28.8M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0926.514 (3) Free space on disk containing Updraft's temporary directory: 415882.8 MB
+0926.518 (3) Backup run: resumption=3, nonce=6d6ad4e3e6d4, file_nonce=6d6ad4e3e6d4 begun at=1610378967 (927s ago), job type=backup, previous check-in=4.3s
+0926.522 (3) Scheduling a resumption (4) after 300 seconds (1610380194) in case this run gets aborted
+0926.536 (3) Checking if we have a zip executable available
+0926.538 (3) Creation of backups of directories: already finished
+0926.541 (3) Saving backup status to database (elements: 8)
+0926.560 (3) Database dump (WordPress DB): Creation was completed already
+0926.562 (3) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0926.567 (3) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip: plugins: This file has already been successfully uploaded
+0926.569 (3) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0926.571 (3) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-uploads.zip: uploads: This file has already been successfully uploaded
+0926.573 (3) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-others.zip: others: This file has already been successfully uploaded
+0926.574 (3) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db.gz: db: This file has already been successfully uploaded
+0926.576 (3) Saving backup history. Total backup size: Unknown
+0926.582 (3) Requesting upload of the files that have not yet been successfully uploaded (1)
+0926.587 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0926.589 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-43ed1ecc217da85ca9e52a2a5dcc9948)
+0927.572 (3) Google Drive: quota usage: used=58 MB, total=30720 MB, available=30662 MB
+0927.578 (3) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip: Attempting to upload to Google Drive (into folder id: 1_VI6Q7C7yhdOEBY0sE0XAh5uBq5qNBsH)
+0927.704 (3) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip: upload already began; attempting to resume from byte 6553599
+0987.719 (3) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\wordpress-5.6\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0987.725 (3) An error condition has occurred for the first time during this job
+0987.728 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0987.731 (3) Number of backup sets in history: 2; groups (db): 1
+0987.732 (3) Examining (for databases) backup set with group_id=0, nonce=6d6ad4e3e6d4, datestamp=1610378967 (Jan 11 2021 15:29:27)
+0987.734 (3) This backup set is the backup set just made, so will not be deleted.
+0987.734 (3) Examining (for databases) backup set with group_id=0, nonce=913379f966b7, datestamp=1610378377 (Jan 11 2021 15:19:37)
+0987.734 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0987.736 (3) Number of backup sets in history: 2; groups (files): 1
+0987.738 (3) Examining (for files) backup set with nonce=6d6ad4e3e6d4, datestamp=1610378967 (Jan 11 2021 15:29:27)
+0987.738 (3) This backup set is the backup set just made, so will not be deleted.
+0987.739 (3) This backup set is the backup set just made, so will not be deleted.
+0987.739 (3) This backup set is the backup set just made, so will not be deleted.
+0987.739 (3) This backup set is the backup set just made, so will not be deleted.
+0987.739 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0987.741 (3) Examining (for files) backup set with nonce=913379f966b7, datestamp=1610378377 (Jan 11 2021 15:19:37)
+0987.741 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0987.741 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0987.745 (3) Resume backup (6d6ad4e3e6d4, 3): finish run
+0987.748 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0987.752 (3) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+5742.045 (4) Opened log file at time: Mon, 11 Jan 2021 17:05:09 +0000 on http://localhost/wordpress-5.6/wordpress
+5742.048 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.46 WP: 5.6 PHP: 7.4.11 (apache2handler, Windows NT DESKTOP-4DN4L7B 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: fr_FR Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 28.8M | 30M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+5742.053 (4) Free space on disk containing Updraft's temporary directory: 416732.8 MB
+5742.058 (4) Backup run: resumption=4, nonce=6d6ad4e3e6d4, file_nonce=6d6ad4e3e6d4 begun at=1610378967 (5742s ago), job type=backup
+5742.060 (4) Long time past since expected resumption time: approx expected=1610380194.3, now=1610384709.8, diff=4515.5
+5742.065 (4) [Warning] Votre site est consulté rarement et UpdraftPlus ne peut récupérer les ressources qu'il recherche; veuillez prendre connaissance de cette page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+5742.071 (4) Scheduling a resumption (5) after 300 seconds (1610385009) in case this run gets aborted
+5742.095 (4) Checking if we have a zip executable available
+5742.097 (4) Creation of backups of directories: already finished
+5742.100 (4) Saving backup status to database (elements: 8)
+5742.117 (4) Database dump (WordPress DB): Creation was completed already
+5742.120 (4) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+5742.128 (4) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-plugins.zip: plugins: This file has already been successfully uploaded
+5742.130 (4) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+5742.133 (4) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-uploads.zip: uploads: This file has already been successfully uploaded
+5742.135 (4) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-others.zip: others: This file has already been successfully uploaded
+5742.138 (4) backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-db.gz: db: This file has already been successfully uploaded
+5742.140 (4) Saving backup history. Total backup size: Unknown
+5742.147 (4) Requesting upload of the files that have not yet been successfully uploaded (1)
+5742.152 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+5742.155 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-43ed1ecc217da85ca9e52a2a5dcc9948)
+5745.153 (4) Google Drive: quota usage: used=58 MB, total=30720 MB, available=30662 MB
+5745.162 (4) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip: Attempting to upload to Google Drive (into folder id: 1_VI6Q7C7yhdOEBY0sE0XAh5uBq5qNBsH)
+5745.426 (4) Google Drive: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip: upload already began; attempting to resume from byte 7340031
+5747.137 (4) Googledrive chunked upload: 100 % uploaded (7340032)
+5747.150 (4) Google Drive: OK: Archive backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip uploaded in 1.98 seconds
+5747.154 (4) Recording as successfully uploaded: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip
+5747.165 (4) Deleting local file: backup_2021-01-11-1629_Ornella_Lallier_6d6ad4e3e6d4-themes.zip: OK
+5747.179 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+5747.184 (4) Number of backup sets in history: 2; groups (db): 1
+5747.187 (4) Examining (for databases) backup set with group_id=0, nonce=6d6ad4e3e6d4, datestamp=1610378967 (Jan 11 2021 15:29:27)
+5747.191 (4) This backup set is the backup set just made, so will not be deleted.
+5747.191 (4) Examining (for databases) backup set with group_id=0, nonce=913379f966b7, datestamp=1610378377 (Jan 11 2021 15:19:37)
+5747.191 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+5747.193 (4) Number of backup sets in history: 2; groups (files): 1
+5747.196 (4) Examining (for files) backup set with nonce=6d6ad4e3e6d4, datestamp=1610378967 (Jan 11 2021 15:29:27)
+5747.196 (4) This backup set is the backup set just made, so will not be deleted.
+5747.199 (4) This backup set is the backup set just made, so will not be deleted.
+5747.199 (4) This backup set is the backup set just made, so will not be deleted.
+5747.199 (4) This backup set is the backup set just made, so will not be deleted.
+5747.199 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+5747.201 (4) Examining (for files) backup set with nonce=913379f966b7, datestamp=1610378377 (Jan 11 2021 15:19:37)
+5747.201 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+5747.202 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+5747.208 (4) Resume backup (6d6ad4e3e6d4, 4): finish run
+5747.213 (4) There were no errors in the uploads, so the 'resume' event (5) is being unscheduled
+5747.221 (4) The backup apparently succeeded (with warnings) and is now complete
+5747.224 (4) Fetching RSS news feed
+5747.282 (4) Fetched RSS news feed; result is a: SimplePie
+5747.355 (4) Sending email ('Fichiers et base de données (Sauvegarde complète)') report (attachments: 1, size: 41.5 KB) to: ornel...
+5747.371 (4) La sauvegarde a apparemment réussi (avec des alertes) et est à présent terminée
